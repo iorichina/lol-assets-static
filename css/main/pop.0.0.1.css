@@ -1,0 +1,202 @@
+/*! Version: 0.0.0
+ *  common pop style - 1
+ */
+.pop-mask {
+    background: none repeat scroll 0 0 #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.pop {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: #ddd;
+    display: none;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    left: 50%;
+    margin: 0 0 0 -210px;
+    padding: 10px;
+    position: fixed;
+    width: 400px;
+    z-index: 110;
+}
+.pop .pop-box {
+    background: none repeat scroll 0 0 #444;
+}
+.pop .pop-box .pop-box-hd {
+    background: none repeat scroll 0 0 #333;
+    height: 60px;
+    padding: 0 20px;
+}
+.pop .pop-box .pop-box-hd h3 {
+    color: #ccc;
+    float: left;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.pop .pop-box .pop-box-hd .act {
+    float: right;
+    padding-top: 6px;
+}
+.pop .pop-box .pop-box-hd .btn-close {
+    color: #fff;
+    font-size: 28px;
+}
+.pop .pop-box .pop-box-hd .btn-close:hover {
+    text-decoration: none;
+}
+.pop .pop-box .pop-box-bd {
+    padding: 25px 0;
+}
+.pop .pop-box .txt-p {
+    line-height: 30px;
+    padding: 0 10px 0 30px;
+}
+.pop .pop-box .txt-p .txt-p-title, .pop .pop-box .txt-p .txt-p-title2 {
+    color: #e9b843;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.pop .pop-box .txt-p .txt-p-title2 {
+    color: #ddd;
+}
+.pop .pop-box .txt-p strong {
+    color: #e9b843;
+}
+.pop .pop-box .center {
+    text-align: center;
+}
+.pop .pop-box .btn-cont, .pop .pop-box .btn-cont2 {
+    padding: 20px 0 0;
+    text-align: center;
+}
+.pop .pop-box .btn-cont a, .pop .pop-box .btn-cont2 a {
+    background: none repeat scroll 0 0 #ae7a3f;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 10px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.pop .pop-box .btn-cont a:hover, .pop .pop-box .btn-cont2 a:hover {
+    background: none repeat scroll 0 0 #db9a50;
+    text-decoration: none;
+}
+.pop .pop-box .btn-cont .btn2, .pop .pop-box .btn-cont2 .btn2 {
+    background: none repeat scroll 0 0 #846441;
+}
+.pop .pop-box .btn-cont2 a {
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+.pop .pop-box .server-list {
+    float: left;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+}
+.pop .pop-box .server-list a {
+    background: none repeat scroll 0 0 #333;
+    border: 1px solid #555;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 20px 20px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.pop .pop-box .server-list a:hover {
+    background: none repeat scroll 0 0 #222;
+    border-color: #777;
+    color: #d8ab43;
+    text-decoration: none;
+}
+.pop .pop-box .server-list .full {
+    color: red;
+}
+.pop .pop-box .server-list .full:hover {
+    background: none repeat scroll 0 0 #333;
+    border-color: #555;
+    color: red;
+}
+.pop .pop-box .page {
+    clear: both;
+    text-align: center;
+}
+.pop .pop-box .page a, .pop .pop-box .page span {
+    background: none repeat scroll 0 0 #8e6a40;
+    color: #c7c7c7;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 3px;
+    vertical-align: top;
+    width: 30px;
+}
+.pop .pop-box .page a:hover, .pop .pop-box .page span:hover {
+    background: none repeat scroll 0 0 #db9a50;
+    color: #fff;
+    text-decoration: none;
+}
+.pop .pop-box .page .current, .pop .pop-box .page .current:hover {
+    background: none repeat scroll 0 0 #ae7a3f;
+    color: #fff;
+}
+.pop .pop-box .pop-form {
+    overflow: hidden;
+    padding: 10px 0 0 25px;
+}
+.pop .pop-box .pop-form-item {
+    float: left;
+    padding: 0 0 16px;
+    width: 240px;
+}
+.pop .pop-box .pop-form-item label {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    vertical-align: top;
+    width: 85px;
+}
+.pop .pop-box .pop-form-item input {
+    background: none repeat scroll 0 0 #585858;
+    border: 1px solid #6b6b6b;
+    border-radius: 3px;
+    color: #999;
+    height: 26px;
+    line-height: 26px;
+    padding: 3px;
+    vertical-align: top;
+    width: 130px;
+}
+.pop .pop-box .pop-form-item input:focus {
+    color: #ccc;
+}
+.pop .pop-box .pop-form-item .value {
+    color: #fff;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: top;
+}
+.pop-big {
+    margin: 0 0 0 -277px;
+    width: 535px;
+}

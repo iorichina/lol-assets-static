@@ -1,0 +1,266 @@
+/*! Version: 1.0.0
+ *  common partial - 1
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    font-size: 100%;
+}
+button, html, input, select, textarea {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: 0.83em;
+}
+h6 {
+    font-size: 0.67em;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: 700;
+}
+dfn {
+    font-style: italic;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+mark {
+    background: none repeat scroll 0 0 #ff0;
+    color: #000;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {
+    quotes: none;
+}
+q:after, q:before {
+    content: none;
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+nav ol, nav ul {
+    list-style: none outside none;
+}
+img {
+    border: 0 none;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+legend {
+    border: 0 none;
+    white-space: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {
+    line-height: normal;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    text-rendering: optimizelegibility;
+}
+body {
+    word-wrap: break-word;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+em, i {
+    font-style: normal;
+}
+menu, ol, ul {
+    list-style: none outside none;
+}
+abbr, acronym, fieldset, iframe {
+    border: 0 none;
+}
+article, aside, audio, blockquote, button, canvas, code, dd, details, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, mark, menu, nav, ol, output, p, pre, ruby, section, summary, td, textarea, th, time, ul, video {
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    display: block;
+}
+textarea {
+    resize: vertical;
+}
+th {
+    text-align: inherit;
+}
+body, button, input, select, textarea {
+    font-family: Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+}
+.clearfix {
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.blank10, .blank15, .blank20, .blank5 {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.blank5 {
+    height: 5px;
+}
+.blank10 {
+    height: 10px;
+}
+.blank15 {
+    height: 15px;
+}
+.blank20 {
+    height: 20px;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.left {
+    text-align: left !important;
+}
+.right {
+    text-align: right !important;
+}
+.center {
+    text-align: center !important;
+}
+.indent {
+    text-indent: 2em;
+}
+.highlight {
+    color: #f30 !important;
+}
+.important {
+    font-weight: 700 !important;
+}
+.no-border {
+    border: 0 none !important;
+}
+.transparent {
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    background: none repeat scroll 0 0 #1d1d21;
+    color: #999;
+    font: 12px/1.5 Tahoma,sans-serif;
+    min-width: 980px;
+}
+body a {
+    color: #333;
+    text-decoration: none;
+}
+body a:hover {
+    color: #f40;
+    text-decoration: underline;
+}
+input:focus, textarea:focus {
+    outline: 0 none;
+}
